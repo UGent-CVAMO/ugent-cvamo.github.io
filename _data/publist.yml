@@ -9,7 +9,7 @@
   to activities. To improve the costing system, we examined first of all the impact of hybridizing
   an ABC (TDABC) system with TDABC (ABC). Our efforts on hybridizing showed that adding one ABC
   element into a TDABC system usually improves accuracy.
-  
+  \
   Further, we evaluated interaction as a means to reduce time estimation error. We tested the joint 
   impact of task interruption and interactive time estimation on the accuracy of time estimates. As 
   predicted, we find that the negative impact of task interruption on time estimation accuracy is 
