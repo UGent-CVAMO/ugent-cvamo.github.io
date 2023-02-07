@@ -9,7 +9,7 @@
   to activities. To improve the costing system, we examined first of all the impact of hybridizing
   an ABC (TDABC) system with TDABC (ABC). Our efforts on hybridizing showed that adding one ABC
   element into a TDABC system usually improves accuracy.
-  
+  \n
   Further, we evaluated interaction as a means to reduce time estimation error. We tested the joint 
   impact of task interruption and interactive time estimation on the accuracy of time estimates. As 
   predicted, we find that the negative impact of task interruption on time estimation accuracy is 
@@ -24,6 +24,23 @@
     display: 
   highlight: 1
   news2: 
+  
+- title: "Tackling challenges related to Activity and Time-based costing"
+  image: 
+  description: "Internal accounting information serves two primary roles: (i) to support decision-making, 
+  (ii) to decision-influencing or control role. In particular, environmental management accounting encompasses 
+  the provision of information to manage environmental performance. Management controls are designed 'to ensure 
+  that the behaviour of employees is consistent with the organization’s objectives and strategy'. In the context
+  of the environment, we view environmental controls or eco-controls as mechanisms used to direct organizational 
+  members as well as other stakeholders such that they perform activities that contribute to the achievement of 
+  organizations’ environmental objectives and the implementation of their related strategies. We have studied 
+  prior research on eco-control practices and obtained critical reflections and avenues for future work." 
+  authors: 
+  link:
+    url: 
+    display: 
+  highlight: 1
+  news2:   
   
 - title: "The Effectiveness of Conceptual Models Auto-Generated from a Set of User Stories Written as BDD Scenarios: A Proposed Study"
   image: 
