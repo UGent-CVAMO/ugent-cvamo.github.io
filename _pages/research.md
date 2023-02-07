@@ -13,7 +13,7 @@ Our experts are linked to the Faculty of Economics and Business Administration. 
 - Extraction and development of executable models incl. cost estimation for TCO elements of complex and dynamic environments, supported by mining techniques, data analytics and AI/machine learning capturing human system interaction/decision making.
 - Robust cost-optimal decision making (stochastic optimisation) for manufacturing, intralogistics, supply chains and planning/scheduling under uncertainty.Develop and apply black boc machine (deep) learning tecniques, including machine learning and semantics to include expert knowledge to obtain interpretable outputs;
 
-## Group highlights
+## Topics
 
 (For a full list of publications and patents see [below](#full-list-of-publications) or go to [Google Scholar](https://scholar.google.ch/citations?user=TqxYWZsAAAAJ), [ResearcherID](https://www.researcherid.com/rid/D-7763-2012))
 
