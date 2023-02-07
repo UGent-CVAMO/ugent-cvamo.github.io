@@ -1,6 +1,7 @@
 - title: "Tackling challenges related to Activity and Time-based costing"
   image: 
-  description: "Activity-based costing (ABC) and time-driven activity-based costing (TDABC) 
+  description: |
+  Activity-based costing (ABC) and time-driven activity-based costing (TDABC) 
   are two types of costing systems. We have developed an analytical comparison which generates 
   formulas that describe how each system maps resources to activities and finally to products. 
   In our numerical experiment TDABC is more accurate than ABC when traceability of resources 
@@ -9,7 +10,7 @@
   to activities. To improve the costing system, we examined first of all the impact of hybridizing
   an ABC (TDABC) system with TDABC (ABC). Our efforts on hybridizing showed that adding one ABC
   element into a TDABC system usually improves accuracy.
-  \n
+  
   Further, we evaluated interaction as a means to reduce time estimation error. We tested the joint 
   impact of task interruption and interactive time estimation on the accuracy of time estimates. As 
   predicted, we find that the negative impact of task interruption on time estimation accuracy is 
@@ -17,7 +18,7 @@
   a final time estimate alone. By explaining our findings through the underlying effects of cognitive
   load and confidence, we are able to provide managers ways to improve the accuracy of their time-based
   costing systems by enabling an interactive time estimation process to offset the detrimental effect 
-  of task interruption." 
+  of task interruption. 
   authors: 
   link:
     url: 
