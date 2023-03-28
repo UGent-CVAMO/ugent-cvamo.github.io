@@ -28,25 +28,49 @@
   education1:
   
 - name: Arne Buchwald
-  info: Reseracher
+  info: Researcher
   email: 
   number_educ: 0
   education1:
   
 - name: Arthur Thuy
-  info: Phd Reseracher
+  info: Phd Researcher
   email: 
   number_educ: 0
   education1:
   
 - name: Azin Rashidipour
-  info: Phd Reseracher
+  info: Phd Student
   email: 
   number_educ: 0
   education1:
 
 - name: Babak Akbarzadeh
-  info: Post-doc Reseracher
+  info: Post-doc Researcher
+  email: 
+  number_educ: 0
+  education1:
+
+- name: Bram Jannsens
+  info: Phd Student
+  email: 
+  number_educ: 0
+  education1:
+  
+- name: Camelia Maleki
+  info: Phd Student
+  email: 
+  number_educ: 0
+  education1:
+  
+- name: David Van Bulck
+  info: Post-doc researcher
+  email: 
+  number_educ: 0
+  education1:
+  
+- name: Dirk Steuperaert
+  info: Phd Student
   email: 
   number_educ: 0
   education1:
