@@ -8,17 +8,11 @@ permalink: /vacancies
 
 # Open positions
 
-<!--
+
 **Note: We currently don't have funding for additional PhD and postdoc positions. We can only welcome you if you have a fellowship. I'd be happy to support you after you apply to our group.**
--->
 
 We are always looking for new group members with passion, talent, and grit!
 
-### Phd Student
-We are hiring a new PhD Student. Detailed info via this [link](https://www.ugent.be/en/work/scientific/doctoral-fellow-18).
-
-### Innovation Manager
-We are hiring an Innovation Manager (Msc or PhD) to support our research group CVAMO and to manage our interactions Strategic Research Centre 'Flanders Make' and our relations with the manufacturing industry. Detailed info via this [link](https://career5.successfactors.eu/career?career%5fns=job%5flisting&company=C0000956575P&navBarLevel=JOB%5fSEARCH&rcm%5fsite%5flocale=en%5fGB&site=VjItUnUyR1hvaHNudXZSOFFoaDZWYUtYQT09&career_job_req_id=23538&selected_lang=en_GB&jobAlertController_jobAlertId=&jobAlertController_jobAlertName=&browserTimeZone=Europe/Brussels&_s.crb=MKddrtqkhxxD5DXLJyKE0TKImwKa6cFXLyAs95gJbg8%3d).
 
 
 ### Applications for PhD and Postdoc positions
