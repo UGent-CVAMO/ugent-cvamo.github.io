@@ -12,3 +12,5 @@ permalink: /allnews.html
 <p>{{ article.date }} <br>
 <em>{{ article.headline | markdownify}}</em></p>
 {% endfor %}
+
+<a class="twitter-timeline" href="https://twitter.com/CVAMO_UGent?ref_src=twsrc%5Etfw">Tweets by CVAMO_UGent</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
