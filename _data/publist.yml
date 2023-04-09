@@ -42,34 +42,38 @@
     display: 
   highlight: 1
   news2:   
-  
-- title: "The Effectiveness of Conceptual Models Auto-Generated from a Set of User Stories Written as BDD Scenarios: A Proposed Study"
+
+- title: "B2BBoost - Understanding to mitigate customer churn"
   image: 
-  description: While agile methodologies are commonly used in software development, researchers have identified many issues related to requirements elicitation in agile projects. Some of these issues relate to the complexity of managing and understanding user stories, which is a widely used requirements specification mechanism in Agile methodologies. This research proposes the automatic generation of conceptual models from the user stories and the corresponding Behavior-Driven Development acceptance criteria to help managing and understanding user stories. This paper discusses a proposed study to evaluate the usefulness of the auto-generated conceptual models from the user stories.
-  authors: Abhimanyu Gupta and Geert Poels
+  description: "Within the field of customer relationship management (CRM), it is known that attracting new customers 
+  is much more expensive than retaining existing customers. As a result, customer churn prediction (CCP) models have 
+  been created. We developed an B2B-specific profit driven metric, called the Expected Maximum Profit measure for B2B 
+  (EMPB) based on EMPC originally developed for B2C. Using this model, we demonstrated how current practices are 
+  suboptimal due to large discrepancies in customer value. Therefore, to directly incorporate the heterogeneity of customer
+  values and profit concerns of the company, we introduced an instance-dependent profit maximizing classifier based on 
+  gradient boosting, named B2Boost. B2Boost considers these differences in value and incorporates them into the 
+  model construction by maximizing the objective function in terms of the EMPB. Our algorithm outperforms more 
+  traditional methods such as Random Forest." 
+  authors: 
   link:
-    url: https://biblio.ugent.be/publication/8753116
-    display: CEUR Workshop Proceedings
+    url: 
+    display: 
   highlight: 1
-  news2: 
-  
-- title: "Sharing platform ontology development : proof-of-concept"
+  news2:
+
+- title: "Servitisation through digital marketplaces - ontology based model"
   image: 
-  description: A sharing platform is a digital platform that facilitates access to underutilized goods by renting or lending them to others. Users become less dependent on ownership which improves efficiency, sustainability, and the sense of community. The Sharing Economy (SE) is considered a complex domain because value co-creation can occur between multiple types of platform users. Developing platform software that offers the right functionality for the intended digital platform is therefore challenging. To address this complexity, an ontology can be utilized, which is an explicit specification of a conceptualization that provides a controlled vocabulary and shared meaning regarding a domain. The use of a sharing platform ontology allows for more effective communication and knowledge sharing amongst stakeholders in platform development and eventually drives the platform software development process. However, currently, it is not known how to develop such an ontology. In previous research, we developed the Digital Platform Ontology (DPO) and an extension of the DPO for describing platform business model choices. The DPO describes the digital platform domain in terms of digital platform types, including sharing platforms. However, a method to use the DPO and its business model extension for developing an organization-specific ontology that describes the functionality and business model of a specific existing or intended sharing platform was lacking. In this paper, we develop such a method using the Design Science Research Methodology (DSRM) and demonstrate it using a proof-of-concept based on the BlaBlaCar and Couchsurfing platforms.
-  authors: Thomas Derave, Tiago Princes Sales, Frederik Gailly and Geert Poels
+  description: "Industry 4.0 will lead to new business models including servitisation. Digital marketplaces are digital 
+  platforms that may operate under a large variety of business models incl. a servitised business. As taxonomies typically 
+  fall short in describing platform user roles and role-specific digital platform functionality, we developed a 
+  Digital Platform Ontology (DPO) and extended it with digital platform business model ontology modules, based on an 
+  analysis of digital marketplace business models. The new ontology modules can be used as building blocks to model 
+  a digital marketplace operating under a chosen business model." 
+  authors: 
   link:
-    url: http://dx.doi.org/10.3390/su14042076
-    display: (2022) SUSTAINABILITY. 14(4)
+    url: 
+    display: 
   highlight: 1
-  news2: 
+  news2:  
   
-- title: "Ambiguity in user stories : a systematic literature review"
-  image: 
-  description: "Context - Ambiguity in user stories is a problem that has received little research attention. Due to the absence of review studies, it is not known how and to what extent this problem, which impacts the effectiveness of user stories in supporting systems development, has been solved. Objectives: We review the studies that investigate or develop solutions for problems related to ambiguity in user stories. We investigate how these problems manifest themselves, what their causes and consequences are, what solutions have been proposed and what evidence of their effectiveness has been presented. Based on the insights we obtain from this review, we identify research gaps and suggest opportunities for future research. Methods - We followed Systematic Literature Review guidelines to review problems investigated, solutions proposed, and validation/evaluation methods used. We classified the reviewed studies according to the four linguistic levels of ambiguity (i.e., lexical, syntactic, semantic, pragmatic) proposed by Berry and Kamsties to obtain insights from patterns that we observe in the classification of problems and solutions. Results - A total of 36 studies published in 2001-2020 investigated ambiguity in user stories. Based on four patterns we discern, we identify three research gaps. First, we need more research on human behaviors and cognitive factors causing ambiguity. Second, ambiguity is seldom studied as a problem of a set of related user stories, like a theme or epic in Scrum. Third, there is a lack of holistic solution approaches that consider ambiguity at multiple linguistic levels. Conclusion - Ambiguity in user stories is a known problem. However, a comprehensive solution for addressing ambiguity in a set of related user stories as it manifests itself at different linguistic levels as a cognitive problem is lacking."
-  authors: Anis Rahmawati Amna and Geert Poels
-  link:
-    url: http://dx.doi.org/10.3390/su14042076
-    display: (2022) INFORMATION AND SOFTWARE TECHNOLOGY. 145.
-  highlight: 1
-  news2: 
  
