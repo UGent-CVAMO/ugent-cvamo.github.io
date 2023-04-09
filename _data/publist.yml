@@ -144,7 +144,7 @@
   highlight: 1
   news2:  
   
-  - title: "Expert knowledge in data science for business economics"
+- title: "Expert knowledge in data science for business economics"
   image: bda.png
   description: "In view of being able to learn from human behaviour, such as e.g. operators in  a manufacturing context, 
   it is key to be able to detect data that is different from known data. This is referred to as novelty detection and it 
@@ -161,7 +161,7 @@
   highlight: 1
   news2:  
   
- - title: "Interpretable predictive maintenance and root cause analysis"
+- title: "Interpretable predictive maintenance and root cause analysis"
   image: cbmdiagnostics.png
   description: "Condition-based maintenance (CBM) is becoming more commonplace in many industries. Previous research 
   leveraging machine learning has provided high accuracy in the predictive aspect of machine breakdowns. However, the 
