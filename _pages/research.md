@@ -56,12 +56,4 @@ Our experts are linked to the Faculty of Economics and Business Administration. 
 <p> &nbsp; </p>
 
 
-## Full List of publications
-
-{% for publi in site.data.publist %}
-
-  {{ publi.title }} <br />
-  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-
-{% endfor %}
 
