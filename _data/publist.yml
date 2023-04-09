@@ -27,7 +27,7 @@
   news2: 
   
 - title: "Eco-controls for sustainable"
-  image: 
+  image: ecocontrol.png
   description: "Internal accounting information serves two primary roles: (i) to support decision-making, 
   (ii) to decision-influencing or control role. In particular, environmental management accounting encompasses 
   the provision of information to manage environmental performance. Management controls are designed 'to ensure 
@@ -44,7 +44,7 @@
   news2:   
 
 - title: "B2BBoost - Understanding to mitigate customer churn"
-  image: 
+  image: b2boost.png
   description: "Within the field of customer relationship management (CRM), it is known that attracting new customers 
   is much more expensive than retaining existing customers. As a result, customer churn prediction (CCP) models have 
   been created. We developed an B2B-specific profit driven metric, called the Expected Maximum Profit measure for B2B 
@@ -62,13 +62,58 @@
   news2:
 
 - title: "Servitisation through digital marketplaces - ontology based model"
-  image: 
+  image: ontology.png
   description: "Industry 4.0 will lead to new business models including servitisation. Digital marketplaces are digital 
   platforms that may operate under a large variety of business models incl. a servitised business. As taxonomies typically 
   fall short in describing platform user roles and role-specific digital platform functionality, we developed a 
   Digital Platform Ontology (DPO) and extended it with digital platform business model ontology modules, based on an 
   analysis of digital marketplace business models. The new ontology modules can be used as building blocks to model 
   a digital marketplace operating under a chosen business model." 
+  authors: 
+  link:
+    url: 
+    display: 
+  highlight: 1
+  news2:  
+  
+- title: "Improved Process-Goal Alignment (PGA) models"
+  image: pga.png
+  description: "The Process-Goal Alignment (PGA) modeling method is a domain-specific modeling language that aims to 
+  achieve strategic fit of the business strategy with the internal infrastructure and processes. To ensure the acceptance 
+  and correct understanding of PGA models by business-oriented end-users, an intuitively understandable notation is of 
+  paramount importance. We proposed improvements to six elements of the initial PGA notation. Our work enables the 
+  reproducibility of the evaluation procedure by the conceptual modeling community." 
+  authors: 
+  link:
+    url: 
+    display: 
+  highlight: 1
+  news2:  
+
+- title: "Personnel task rescheduling"
+  image: rescheduling.png
+  description: "As companies need to function in continuously evolving and complex environments, personnel planning is of 
+  utmost importance to assign the right person to the right task(s). Due to operational uncertainty, announced baseline 
+  schedules may become infeasible and the need for rescheduling arises. In case of rescheduling, to restore feasibility, 
+  changes are required to either the resource schedule or the service level impacting the task delivery recovery action to 
+  change the operation modes of individual activities, instigating a trade-off between time, quality and assigned 
+  resources. We developed a two-stage heuristic procedure targeted at finding high-quality solutions in an efficient manner." 
+  authors: 
+  link:
+    url: 
+    display: 
+  highlight: 1
+  news2:  
+
+- title: "Balancing disassembly lines"
+  image: dissambly.png
+  description: "One of the factors that can enable a shift towards a circular economy is the efficient organization of 
+  product disassembly. Like any (dis)assembly line proper balancing (i.e. the assignment of tasks to workstations) needs 
+  to be in place. We developed a profit oriented optimization model, specifically taking into account practical aspects 
+  i.e. (i) the resource needs to carry out each task, and (ii) the limited space at workstations. The model is applied 
+  to a case study from literature and, by means of a sensitivity analysis w.r.t. important cost (workstation and resource 
+  costs) and value (task Revenue) drivers, we demonstrate the impact of various problem specific parameters on the 
+  objective value and solution characteristics.  " 
   authors: 
   link:
     url: 
