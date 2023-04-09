@@ -106,7 +106,7 @@
   news2:  
 
 - title: "Balancing disassembly lines"
-  image: dissambly.png
+  image: disassembly.png
   description: "One of the factors that can enable a shift towards a circular economy is the efficient organization of 
   product disassembly. Like any (dis)assembly line proper balancing (i.e. the assignment of tasks to workstations) needs 
   to be in place. We developed a profit oriented optimization model, specifically taking into account practical aspects 
@@ -121,4 +121,61 @@
   highlight: 1
   news2:  
   
+- title: "Transportation optimisation on assembly line feeding"
+  image: transportation.png
+  description: "In the era of mass customisation, feeding parts to mixed-model assembly lines has proven to be a 
+  complex task since customers increasingly demand personalised end products. Consequently, the number of parts 
+  required at a single assembly line is sharply increasing. On the one hand, part supply must be done with the aim 
+  of avoiding excessive logistical handling activities while managing space at the border of line carefully. 
+  Hence, different line feeding policies can be exploited. On the other hand, shortages in parts supply, which may 
+  result in line stoppage, must be avoided. To this end, different vehicle types such as forklifts, automated 
+  guided vehicles and tow trains must be orchestrated carefully.
+  \
+  We proposed (i) a mixed integer programming model that efficiently assigns each part at the same time to a feeding 
+  policy and a vehicle type, while minimising total feeding costs; as well as (ii) a supervised machine learning approach. 
+  For the first, to accurately quantify costs, the model selects specific routes and determines the fleet size of every 
+  vehicle type used. The model is complemented by valid inequalities and validated by solving artificial problem instances. 
+  We demonstrated that optimal selection of vehicle types is superior to heuristic approaches, and around 8% cheaper 
+  than the industrial standard." 
+  authors: 
+  link:
+    url: 
+    display: 
+  highlight: 1
+  news2:  
+  
+  - title: "Expert knowledge in data science for business economics"
+  image: bda.png
+  description: "In view of being able to learn from human behaviour, such as e.g. operators in  a manufacturing context, 
+  it is key to be able to detect data that is different from known data. This is referred to as novelty detection and it 
+  is already widely used in machine conditioning where normal data is stable and outliers are usually pronounced. However, 
+  applications that classify human behaviour typically possess a much higher variability in the data, resulting into a 
+  less strict boundary between novelties and the normal data. To overcome this, we proposed a method that improves existing 
+  approaches by creating semi-synthetic novelties in order to have labelled data for the two classes (normal and outlier). 
+  Expert knowledge is incorporated in the initial phase of this data generation process. This research demonstrates that 
+  the two-class expert model outperforms a one-class model on the semi-synthetic dataset." 
+  authors: 
+  link:
+    url: 
+    display: 
+  highlight: 1
+  news2:  
+  
+ - title: "Interpretable predictive maintenance and root cause analysis"
+  image: cbmdiagnostics.png
+  description: "Condition-based maintenance (CBM) is becoming more commonplace in many industries. Previous research 
+  leveraging machine learning has provided high accuracy in the predictive aspect of machine breakdowns. However, the 
+  diagnostic aspect of these approaches is often lacking. We developed a supervised machine learning approach, with 
+  the goal of both prediction and diagnosis of machinery breakdowns, emphasizing the latter. To achieve this, it uses 
+  an XGBoost model trained on a combination of sensor and report data, and enriches the model with Shapley values for 
+  diagnostic insights. We have shows that this combination of statistical methods, combined with a proper data treatment, 
+  can be used to great effect and can vastly improve the diagnostic value of machine learning approaches. The insights 
+  that follow from the analysis can subsequently be leveraged by plant operators to optimise cost and operational excellence
+  in CBM strategies ." 
+  authors: 
+  link:
+    url: 
+    display: 
+  highlight: 1
+  news2: 
  
