@@ -282,8 +282,11 @@ body {
   display: grid;
   grid-template-columns: 1fr 180px;
   gap: 2rem;
-  align-items: start;
-  margin-top: 1.5rem;
+  align-items: center;
+}
+
+.about-logo {
+  margin-top: 0.5rem;
 }
 
 .about-logo img {
