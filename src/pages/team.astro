@@ -1,0 +1,130 @@
+---
+import Layout from '../layouts/BaseLayout.astro';
+
+const team = [
+  {
+    name: 'Geert Poels - Lab Manager',
+    photo: '/images/geertp.png',
+    role: 'Senior Full Professor',
+    domain: 'Business Informatics',
+    email: 'Geert.Poels@UGent.be',
+    urla: 'https://research.ugent.be/web/person/geert-poels-0/en',
+    urlb: 'https://biblio.ugent.be/person/F6794C86-F0ED-11E1-A9DE-61C894A0A6B4',
+  },
+  {
+    name: 'Dries Benoit',
+    photo: '/images/driesb.png',
+    role: 'Associate Professor',
+    domain: 'Data Analytics',
+    email: 'dries.benoit@UGent.be',
+    urla: 'https://research.ugent.be/web/person/dries-benoit-0/en',
+    urlb: 'https://biblio.ugent.be/person/F88A388C-F0ED-11E1-A9DE-61C894A0A6B4',
+  },
+  {
+    name: 'Matthias Bogaert',
+    photo: '/images/matthiasb.jpg',
+    role: 'Assistant Professor',
+    domain: 'Data Analytics',
+    email: 'matthias.bogaert@UGent.be',
+    urla: 'https://research.ugent.be/web/person/matthias-bogaert-0/en',
+    urlb: 'https://biblio.ugent.be/person/1F61DBF4-F0EE-11E1-A9DE-61C894A0A6B4',
+  },
+  {
+    name: 'Frederik Gailly',
+    photo: '/images/frederikg.png',
+    role: 'Associate Professor',
+    domain: 'Business Informatics',
+    email: 'Frederik.Gailly@UGent.be',
+    urla: 'https://research.ugent.be/web/person/frederik-gailly-0/en',
+    urlb: 'https://biblio.ugent.be/person/F683AB4A-F0ED-11E1-A9DE-61C894A0A6B4',
+  },
+  {
+    name: 'Dries Goossens',
+    photo: '/images/driesg.jpg',
+    role: 'Associate Professor',
+    domain: 'Operations Management',
+    email: 'dries.goossens@UGent.be',
+    urla: 'https://research.ugent.be/web/person/dries-goossens-0/en',
+    urlb: 'https://biblio.ugent.be/person/879F2326-4349-11E3-90BB-673911BDE39D',
+  },
+  {
+    name: 'Veronique Limère',
+    photo: '/images/veroniquel.png',
+    role: 'Associate Professor',
+    domain: 'Operations Management',
+    email: 'veronique.limere@UGent.be',
+    urla: 'https://research.ugent.be/web/person/veronique-limere-0/en',
+    urlb: 'https://biblio.ugent.be/person/F84EE052-F0ED-11E1-A9DE-61C894A0A6B4',
+  },
+  {
+    name: 'Broos Maenhout',
+    photo: '/images/broosm.jpg',
+    role: 'Full Professor',
+    domain: 'Operations Management',
+    email: 'broos.maenhout@UGent.be',
+    urla: 'https://research.ugent.be/web/person/broos-maenhout-0/en',
+    urlb: 'https://biblio.ugent.be/person/F6D05EFE-F0ED-11E1-A9DE-61C894A0A6B4',
+  },
+  {
+    name: 'Seppe vanden Broucke',
+    photo: '/images/member-seppe-vanden-broucke.jpg',
+    role: 'Associate Professor',
+    domain: 'Business Informatics & Data Analytics',
+    email: 'seppe.vandenbroucke@ugent.be',
+    urla: 'https://research.ugent.be/web/person/seppe-vanden-broucke-0/en',
+    urlb: 'https://biblio.ugent.be/publication?text=Seppe+vanden+Broucke',
+  },
+  {
+    name: 'Dirk Van den Poel',
+    photo: '/images/dirkvdp.png',
+    role: 'Senior Full Professor',
+    domain: 'Data Analytics',
+    email: 'dirk.vandenpoel@UGent.be',
+    urla: 'https://research.ugent.be/web/person/dirk-van-den-poel-0/en',
+    urlb: 'https://biblio.ugent.be/person/F5C11EE0-F0ED-11E1-A9DE-61C894A0A6B4',
+  },
+  {
+    name: 'Katrien Verleye',
+    photo: '/images/katrienv.jpg',
+    role: 'Associate Professor',
+    domain: 'Value Management',
+    email: 'katrien.verleye@UGent.be',
+    urla: 'https://research.ugent.be/web/person/katrien-verleye-0/en',
+    urlb: 'https://biblio.ugent.be/person/801002013516',
+  },
+];
+---
+
+<Layout>
+  <section class="content-inner">
+    <h1>Team</h1>
+
+    <h2>PI's</h2>
+
+    <div class="team-grid">
+      {team.map((person) => (
+        <article class="team-card">
+          <img src={person.photo} alt={person.name} class="team-photo" />
+
+          <div class="team-info">
+            <h2 class="team-name">
+              <a href={person.urla} target="_blank" rel="noopener noreferrer">
+                {person.name}
+              </a>
+            </h2>
+            <p class="team-role">{person.role}</p>
+            <p class="team-domain">{person.domain}</p>
+            <!-- 
+            <p class="team-email">
+              <a href={`mailto:${person.email}`}>{person.email}</a>
+            </p>
+            -->
+          </div>
+        </article>
+      ))}
+    </div>
+
+    <h2>Business Development</h2>
+
+  </section>
+</Layout>

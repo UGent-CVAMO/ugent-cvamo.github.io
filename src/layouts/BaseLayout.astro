@@ -1,0 +1,69 @@
+---
+import '../styles/global.css';
+const { pathname } = Astro.url;
+---
+
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CVAMO - UGent</title>
+</head>
+<body>
+  <div class="page-frame">
+    <header class="masthead">
+      <div class="logo-column">
+        <a href="https://www.ugent.be/en">
+          <img src="/logo-ugent-EN.svg" alt="UGent Logo" class="ugent-logo" />
+        </a>
+      </div>
+
+      <div class="hero-banner">
+      
+        <div class="banner-links">
+          <a href="https://www.ugent.be/eb/en">
+            Home Faculty of Economics and Business Administration
+          </a>
+        </div>
+      
+        <h1 class="banner-title">
+          <a href="/">
+            COST AND VALUE ANALYTICS MODELS & OPTIMIZATION
+          </a>
+        </h1>
+      
+      </div>
+    </header>
+
+    <nav class="navigation-tabs">
+      <ul class="tab-list">
+        <li class={`tab-item ${pathname.startsWith("/about") ? "active" : ""}`}>
+          <a href="/about">About</a>
+        </li>
+    
+        <li class={`tab-item ${pathname.startsWith("/team") ? "active" : ""}`}>
+          <a href="/team">Team</a>
+        </li>
+    
+        <li class={`tab-item ${pathname.startsWith("/research") ? "active" : ""}`}>
+          <a href="/research">Research</a>
+        </li>
+    
+        <li class={`tab-item ${pathname.startsWith("/for-companies") ? "active" : ""}`}>
+          <a href="/for-companies">For Companies</a>
+        </li>
+    
+        <li class={`tab-item ${pathname.startsWith("/contact") ? "active" : ""}`}>
+          <a href="/contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="page-content">
+      <div class="content-inner">
+        <slot />
+      </div>
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,293 @@
+:root {
+  --page-max-width: 1250px;
+  --page-side-margin: 0px;
+  --logo-col-width: 200px;
+
+  --ugent-blue: #1e64c8;
+  --ugent-eb: #aeb050;
+  --page-bg: #ffffff;
+  --text-color: #222;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--page-bg);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+}
+
+.page-frame {
+  max-width: var(--page-max-width);
+  margin: 0 auto;
+  background: var(--page-bg);
+}
+
+/* Header: logo links, groene banner rechts */
+.masthead {
+  display: grid;
+  grid-template-columns: var(--logo-col-width) 1fr;
+  align-items: stretch;
+}
+
+.logo-column {
+  background: var(--page-bg);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 18px 0 0 0;
+  box-sizing: border-box;
+}
+
+.ugent-logo {
+  width: auto;
+  height: 100px;
+  display: block;
+}
+
+.hero-banner {
+  background: var(--ugent-eb);
+  display: flex;
+  align-items: flex-end;
+  padding: 0 22px 22px 22px;
+  position: relative;   /* important */
+}
+
+.banner-title {
+  margin: 0;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.banner-title a {
+  color: white;
+  text-decoration: none;
+}
+
+.banner-title a:hover {
+  text-decoration: underline;
+}
+
+.banner-links {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  font-size: 0.8rem;
+}
+
+.banner-links a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.banner-links a:hover {
+  text-decoration: underline;
+}
+
+/* Tabs starten onder de groene balk, dus na de logo-kolom */
+.navigation-tabs {
+  padding-left: var(--logo-col-width);
+}
+
+.tab-list {
+  list-style: none;
+  display: flex;
+  gap: 26px;
+  margin: 0;
+  padding: 14px 0 0 0;
+}
+
+.tab-item a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--ugent-blue);
+  font-size: 1rem;
+  font-weight: 500;
+  padding-bottom: 8px;
+}
+
+.tab-item.active a {
+  border-bottom: 3px solid var(--ugent-blue);
+}
+
+/* Body begint opnieuw onder het logo, met normale witte marges */
+.page-content {
+  padding: 36px 0 60px 0;
+  box-sizing: border-box;
+}
+
+.page-content h1 {
+  color: var(--ugent-blue);
+}
+
+/* optionele inner wrapper voor contentblokken */
+.content-inner {
+  padding: 0 var(--page-side-margin);
+}
+
+.publications-iframe {
+  margin: 1.5rem 0 3rem 0;
+  width: 100%;
+}
+
+.publications-iframe iframe {
+  display: block;
+  width: 100%;
+  min-height: 900px;
+  border: 0;
+  background: transparent;
+}
+
+.home-landing {
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  margin-top: 2rem;
+  min-height: 320px;
+}
+
+.home-panel {
+  background: var(--ugent-eb);
+  color: white;
+  padding: 2rem 2.5rem;
+  box-sizing: border-box;
+}
+
+.home-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  height: 100%;
+  align-items: start;
+}
+
+.home-column {
+  max-width: 260px;
+}
+
+.home-column h2 {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+}
+
+.home-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.home-column li {
+  margin-bottom: 1rem;
+}
+
+.home-column a {
+  color: white;
+  text-decoration: none;
+}
+
+.home-column ul li a::before {
+  content: "→";
+  margin-right: 0.6rem;
+}
+
+.home-column a:hover {
+  text-decoration: underline;
+}
+
+.home-column p {
+  margin: 0 0 1.2rem 0;
+  line-height: 1.5;
+}
+
+.home-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 4.5rem;
+  row-gap: 2.75rem;
+  margin-top: 2rem;
+}
+
+.team-card {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.team-photo {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 14px;
+  display: block;
+}
+
+.team-name {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.team-name a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.team-name a:hover {
+  text-decoration: underline;
+}
+
+.team-role,
+.team-domain {
+  margin: 0;
+  font-style: italic;
+  color: #666;
+  line-height: 1.45;
+}
+
+.team-domain {
+  margin-top: 0.15rem;
+}
+
+.team-email {
+  margin: 0.5rem 0 0 0;
+  font-size: 0.95rem;
+}
+
+.team-email a {
+  color: var(--ugent-blue);
+  text-decoration: none;
+}
+
+.team-email a:hover {
+  text-decoration: underline;
+}
+
+.about-block {
+  display: grid;
+  grid-template-columns: 1fr 180px;
+  gap: 2rem;
+  align-items: start;
+  margin-top: 1.5rem;
+}
+
+.about-logo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
