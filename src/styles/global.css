@@ -280,16 +280,13 @@ body {
 
 .about-block {
   display: grid;
-  grid-template-columns: 1fr 180px;
+  grid-template-columns: 1fr 200px;
   gap: 2rem;
   align-items: center;
 }
 
-.about-logo {
-  margin-top: 0.5rem;
-}
-
 .about-logo img {
+  max-width: 160px;
   width: 100%;
   height: auto;
   display: block;
