@@ -291,3 +291,26 @@ body {
   height: auto;
   display: block;
 }
+
+.ugent-footer {
+  max-width: var(--page-max-width);
+  margin: 80px auto 0 auto;
+  background-color: var(--ugent-blue);
+}
+
+.footer-inner {
+  padding: 50px 40px 20px 40px;  /* more space above than below */
+  display: flex;
+  gap: 30px;
+}
+
+.footer-inner a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.footer-inner a:hover {
+  text-decoration: underline;
+}
