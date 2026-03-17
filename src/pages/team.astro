@@ -93,6 +93,24 @@ const team = [
     urlb: 'https://biblio.ugent.be/person/801002013516',
   },
 ];
+const busdev = [
+  {
+    name: 'Jeroen De Maeyer',
+    photo: '/images/jeroendm.webp',
+    role: 'Business Development Manager',
+    domain: 'Machineries and Factories',
+    email: 'jeroen.demaeyer@UGent.be',
+    urla: 'https://research.ugent.be/web/person/jeroen-de-maeyer-1/en',
+  },
+  {
+    name: 'Nicole Berx',
+    photo: '/images/nicoleb.png',
+    role: 'Innovation manager',
+    domain: 'CVAMO',
+    email: 'nicole.berx@UGent.be',
+    urla: 'https://research.ugent.be/web/person/nicole-berx-0/en',
+  },
+];
 ---
 
 <Layout>
@@ -125,6 +143,29 @@ const team = [
     </div>
 
     <h2>Business Development</h2>
+
+    <div class="team-grid">
+      {busdev.map((person) => (
+        <article class="team-card">
+          <img src={person.photo} alt={person.name} class="team-photo" />
+
+          <div class="team-info">
+            <h2 class="team-name">
+              <a href={person.urla} target="_blank" rel="noopener noreferrer">
+                {person.name}
+              </a>
+            </h2>
+            <p class="team-role">{person.role}</p>
+            <p class="team-domain">{person.domain}</p>
+            <!-- 
+            <p class="team-email">
+              <a href={`mailto:${person.email}`}>{person.email}</a>
+            </p>
+            -->
+          </div>
+        </article>
+      ))}
+    </div>
 
   </section>
 </Layout>
