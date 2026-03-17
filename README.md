@@ -47,11 +47,13 @@ The website is automatically deployed to GitHub Pages via GitHub Actions on ever
 
 ## Structure
 
+```
 src/
 ├── layouts/      # Page layouts
 ├── pages/        # Route-based pages
 ├── components/   # Reusable components
 public/           # Static assets (images, logos, etc.)
+```
 
 ## Notes
 
