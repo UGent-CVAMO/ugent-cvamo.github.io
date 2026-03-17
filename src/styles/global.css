@@ -299,18 +299,19 @@ body {
 }
 
 .footer-inner {
-  padding: 50px 40px 20px 40px;  /* more space above than below */
+  padding: 75px 40px 20px 40px;  /* more space above than below */
   display: flex;
   gap: 30px;
 }
 
 .footer-inner a {
   color: white;
+  font-size: 18px;   /* controls icon size */
+  display: flex;
+  align-items: center;
   text-decoration: none;
-  font-size: 0.95rem;
-  font-weight: 500;
 }
 
 .footer-inner a:hover {
-  text-decoration: underline;
+  opacity: 0.8;
 }

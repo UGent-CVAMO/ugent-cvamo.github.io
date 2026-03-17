@@ -11,6 +11,10 @@ const { pathname } = Astro.url;
     <meta property="og:title" content="CVAMO – Ghent University" />
     <meta property="og:description" content="Cost and Value Analytics, Models & Optimization research lab." />
     <meta property="og:image" content="/images/cvamo-preview.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <title>CVAMO - UGent</title>
 </head>
 <body>
@@ -71,8 +75,13 @@ const { pathname } = Astro.url;
   </div>
   <footer class="ugent-footer">
     <div class="footer-inner">
-      <a href="https://x.com/CVAMO_UGent/" target="_blank" rel="noopener">X</a>
-      <a href="https://www.linkedin.com/company/ugent-m-f/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://x.com/yourhandle" aria-label="X">
+        <i class="fa-brands fa-x-twitter"></i>
+      </a>
+    
+      <a href="https://linkedin.com/in/yourprofile" aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin-in"></i>
+      </a>
     </div>
   </footer>
 </body>
