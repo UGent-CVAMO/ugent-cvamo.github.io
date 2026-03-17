@@ -318,30 +318,37 @@ body {
 
 @media (max-width: 900px) {
   .masthead {
-    grid-template-columns: 1fr;
+    grid-template-columns: 140px 1fr;
+    align-items: stretch;
   }
-
+  
   .logo-column {
-    padding: 16px 0 8px 0;
+    padding: 12px 0 0 0;
   }
-
+  
+  .ugent-logo {
+    height: 72px;
+    width: auto;
+  }
+  
   .hero-banner {
-    padding: 18px 18px 18px 18px;
-    align-items: flex-start;
+    padding: 0 16px;
+    min-height: 72px;
+    align-items: center;
   }
-
+  
   .banner-title {
-    font-size: 1.05rem;
+    font-size: 1rem;
     line-height: 1.2;
     max-width: 100%;
   }
-
+  
   .banner-links {
     display: none;
   }
 
   .navigation-tabs {
-    padding-left: 0;
+    padding-left: 140px;
     overflow-x: auto;
   }
 
@@ -377,5 +384,26 @@ body {
   .team-grid {
     grid-template-columns: 1fr;
     column-gap: 0;
+  }
+
+  .about-block {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    align-items: start;
+  }
+
+  .about-logo {
+    justify-self: start;
+  }
+
+  .about-logo img {
+    max-width: 140px;
+  }
+}
+
+@media (max-width: 550px) {
+  .navigation-tabs {
+    padding-left: 0px;
+    overflow-x: auto;
   }
 }
