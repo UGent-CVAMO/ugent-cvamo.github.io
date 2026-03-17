@@ -1,46 +1,66 @@
-# Astro Starter Kit: Basics
+# CVAMO Website
+
+Website for the research group **Cost and Value Analytics, Models & Optimization (CVAMO)**  
+Ghent University – Faculty of Economics and Business Administration.
+
+Live site: https://cvamo.ugent.be redirects to https://ugent-cvamo.github.io/
+
+## Overview
+
+This repository contains the source code of the CVAMO website, built with [Astro](https://astro.build) and deployed via GitHub Pages.
+
+The site provides information on:
+- Research activities and publications
+- Team members
+- Industry collaboration
+- Contact information
+
+## Development
+
+Install dependencies:
 
 ```sh
-npm create astro@latest -- --template basics
+npm install
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Start local development server:
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
+```sh
+npm run dev
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## Build the site:
 
-## 🧞 Commands
+```sh
+npm run build
+```
 
-All commands are run from the root of the project, from a terminal:
+## Preview production build:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+```sh
+npm run preview
+```
 
-## 👀 Want to learn more?
+## Deployment
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+The website is automatically deployed to GitHub Pages via GitHub Actions on every push to the main branch.
+
+## Structure
+
+src/
+├── layouts/      # Page layouts
+├── pages/        # Route-based pages
+├── components/   # Reusable components
+public/           # Static assets (images, logos, etc.)
+
+## Notes
+
+The site follows a UGent-inspired layout and styling.
+
+Designed to be lightweight, maintainable, and responsive.
+
+Content is intentionally kept simple (no CMS).
+
+## License
+
+Internal use – CVAMO / Ghent University
